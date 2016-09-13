@@ -16,6 +16,7 @@
 		6897DDCB1D878B4700BBA2B6 /* YBCircleTransitionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6897DDCA1D878B4700BBA2B6 /* YBCircleTransitionDemoTests.m */; };
 		6897DDD61D878B4800BBA2B6 /* YBCircleTransitionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6897DDD51D878B4800BBA2B6 /* YBCircleTransitionDemoUITests.m */; };
 		6897DDE51D879A8100BBA2B6 /* YBCircleSpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6897DDE41D879A8100BBA2B6 /* YBCircleSpreadTransition.m */; };
+		6897DDEE1D87C7E200BBA2B6 /* YBSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6897DDED1D87C7E200BBA2B6 /* YBSecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6897DDD71D878B4800BBA2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6897DDE31D879A8100BBA2B6 /* YBCircleSpreadTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCircleSpreadTransition.h; sourceTree = "<group>"; };
 		6897DDE41D879A8100BBA2B6 /* YBCircleSpreadTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCircleSpreadTransition.m; sourceTree = "<group>"; };
+		6897DDEC1D87C7E200BBA2B6 /* YBSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBSecondVC.h; sourceTree = "<group>"; };
+		6897DDED1D87C7E200BBA2B6 /* YBSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBSecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				6897DDB41D878B4700BBA2B6 /* AppDelegate.m */,
 				6897DDB61D878B4700BBA2B6 /* ViewController.h */,
 				6897DDB71D878B4700BBA2B6 /* ViewController.m */,
+				6897DDEC1D87C7E200BBA2B6 /* YBSecondVC.h */,
+				6897DDED1D87C7E200BBA2B6 /* YBSecondVC.m */,
 				6897DDE31D879A8100BBA2B6 /* YBCircleSpreadTransition.h */,
 				6897DDE41D879A8100BBA2B6 /* YBCircleSpreadTransition.m */,
 				6897DDB91D878B4700BBA2B6 /* Main.storyboard */,
@@ -275,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6897DDEE1D87C7E200BBA2B6 /* YBSecondVC.m in Sources */,
 				6897DDE51D879A8100BBA2B6 /* YBCircleSpreadTransition.m in Sources */,
 				6897DDB81D878B4700BBA2B6 /* ViewController.m in Sources */,
 				6897DDB51D878B4700BBA2B6 /* AppDelegate.m in Sources */,
